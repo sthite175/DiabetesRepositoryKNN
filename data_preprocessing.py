@@ -1,0 +1,1 @@
+## This file contain code for preprocessing data receiving from database
