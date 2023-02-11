@@ -13,7 +13,7 @@ def get_prediction():
     data=request.form
     pred_output=diabetes_prediction(data)
 
-    #return jsonify({"Result":diabetes})
+    #return jsonify({"Result":diabetes})   # It will for postman result for checking app will work or not
     return render_template("index.html",Result=pred_output)
 
 if __name__=="__main__":
